@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B562E911D73FBAD00DEC3BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B562E901D73FBAD00DEC3BA /* main.m */; };
+		8B562E941D73FBAD00DEC3BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B562E931D73FBAD00DEC3BA /* AppDelegate.m */; };
+		8B562E971D73FBAD00DEC3BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B562E961D73FBAD00DEC3BA /* ViewController.m */; };
+		8B562E9A1D73FBAD00DEC3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B562E981D73FBAD00DEC3BA /* Main.storyboard */; };
+		8B562E9D1D73FBAD00DEC3BA /* LaFengDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B562E9B1D73FBAD00DEC3BA /* LaFengDemo.xcdatamodeld */; };
+		8B562E9F1D73FBAD00DEC3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B562E9E1D73FBAD00DEC3BA /* Assets.xcassets */; };
+		8B562EA21D73FBAD00DEC3BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B562EA01D73FBAD00DEC3BA /* LaunchScreen.storyboard */; };
+		8B562EAD1D73FBAD00DEC3BA /* LaFengDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B562EAC1D73FBAD00DEC3BA /* LaFengDemoTests.m */; };
+		8B562EB81D73FBAD00DEC3BA /* LaFengDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B562EB71D73FBAD00DEC3BA /* LaFengDemoUITests.m */; };
+		8B9AF5F41D742A7500BF3C99 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9AF5F11D742A7500BF3C99 /* UIControl+YYAdd.m */; };
+		8B9AF5F51D742A7500BF3C99 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9AF5F31D742A7500BF3C99 /* UIView+YYAdd.m */; };
+		8B9AF5F81D742A8000BF3C99 /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9AF5F71D742A8000BF3C99 /* LFLivePreview.m */; };
+		8B9AF6021D742C4100BF3C99 /* camra_beauty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AF5FA1D742C4100BF3C99 /* camra_beauty@2x.png */; };
+		8B9AF6031D742C4100BF3C99 /* camra_beauty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AF5FB1D742C4100BF3C99 /* camra_beauty@3x.png */; };
+		8B9AF6041D742C4100BF3C99 /* camra_beauty_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AF5FC1D742C4100BF3C99 /* camra_beauty_close@2x.png */; };
+		8B9AF6051D742C4100BF3C99 /* camra_beauty_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AF5FD1D742C4100BF3C99 /* camra_beauty_close@3x.png */; };
+		8B9AF6061D742C4100BF3C99 /* camra_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AF5FE1D742C4100BF3C99 /* camra_preview@2x.png */; };
+		8B9AF6071D742C4100BF3C99 /* camra_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AF5FF1D742C4100BF3C99 /* camra_preview@3x.png */; };
+		8B9AF6081D742C4100BF3C99 /* close_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AF6001D742C4100BF3C99 /* close_preview@2x.png */; };
+		8B9AF6091D742C4100BF3C99 /* close_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AF6011D742C4100BF3C99 /* close_preview@3x.png */; };
+		C83C8D1C3902ADB5D0E77435 /* libPods-LaFengDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E71463F6DD386DFCB57590 /* libPods-LaFengDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B562EA91D73FBAD00DEC3BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B562E841D73FBAD00DEC3BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B562E8B1D73FBAD00DEC3BA;
+			remoteInfo = LaFengDemo;
+		};
+		8B562EB41D73FBAD00DEC3BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B562E841D73FBAD00DEC3BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B562E8B1D73FBAD00DEC3BA;
+			remoteInfo = LaFengDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55E71463F6DD386DFCB57590 /* libPods-LaFengDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LaFengDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8642C5CCD36D71EADFF74D83 /* Pods-LaFengDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaFengDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaFengDemo/Pods-LaFengDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		88D54A551A9CF12BE78FDB4E /* Pods-LaFengDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaFengDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaFengDemo/Pods-LaFengDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8B562E8C1D73FBAD00DEC3BA /* LaFengDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaFengDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B562E901D73FBAD00DEC3BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B562E921D73FBAD00DEC3BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B562E931D73FBAD00DEC3BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B562E951D73FBAD00DEC3BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B562E961D73FBAD00DEC3BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B562E991D73FBAD00DEC3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B562E9C1D73FBAD00DEC3BA /* LaFengDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LaFengDemo.xcdatamodel; sourceTree = "<group>"; };
+		8B562E9E1D73FBAD00DEC3BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B562EA11D73FBAD00DEC3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B562EA31D73FBAD00DEC3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B562EA81D73FBAD00DEC3BA /* LaFengDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaFengDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B562EAC1D73FBAD00DEC3BA /* LaFengDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaFengDemoTests.m; sourceTree = "<group>"; };
+		8B562EAE1D73FBAD00DEC3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B562EB31D73FBAD00DEC3BA /* LaFengDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaFengDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B562EB71D73FBAD00DEC3BA /* LaFengDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaFengDemoUITests.m; sourceTree = "<group>"; };
+		8B562EB91D73FBAD00DEC3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9AF5F01D742A7500BF3C99 /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
+		8B9AF5F11D742A7500BF3C99 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
+		8B9AF5F21D742A7500BF3C99 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		8B9AF5F31D742A7500BF3C99 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		8B9AF5F61D742A8000BF3C99 /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
+		8B9AF5F71D742A8000BF3C99 /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
+		8B9AF5FA1D742C4100BF3C99 /* camra_beauty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@2x.png"; sourceTree = "<group>"; };
+		8B9AF5FB1D742C4100BF3C99 /* camra_beauty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@3x.png"; sourceTree = "<group>"; };
+		8B9AF5FC1D742C4100BF3C99 /* camra_beauty_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@2x.png"; sourceTree = "<group>"; };
+		8B9AF5FD1D742C4100BF3C99 /* camra_beauty_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@3x.png"; sourceTree = "<group>"; };
+		8B9AF5FE1D742C4100BF3C99 /* camra_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@2x.png"; sourceTree = "<group>"; };
+		8B9AF5FF1D742C4100BF3C99 /* camra_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@3x.png"; sourceTree = "<group>"; };
+		8B9AF6001D742C4100BF3C99 /* close_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@2x.png"; sourceTree = "<group>"; };
+		8B9AF6011D742C4100BF3C99 /* close_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B562E891D73FBAD00DEC3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83C8D1C3902ADB5D0E77435 /* libPods-LaFengDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B562EA51D73FBAD00DEC3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B562EB01D73FBAD00DEC3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB9C58E60F254321A835890 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8642C5CCD36D71EADFF74D83 /* Pods-LaFengDemo.debug.xcconfig */,
+				88D54A551A9CF12BE78FDB4E /* Pods-LaFengDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B562E831D73FBAD00DEC3BA = {
+			isa = PBXGroup;
+			children = (
+				8B562E8E1D73FBAD00DEC3BA /* LaFengDemo */,
+				8B562EAB1D73FBAD00DEC3BA /* LaFengDemoTests */,
+				8B562EB61D73FBAD00DEC3BA /* LaFengDemoUITests */,
+				8B562E8D1D73FBAD00DEC3BA /* Products */,
+				1DB9C58E60F254321A835890 /* Pods */,
+				D005356EAB8ED07B912E96BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B562E8D1D73FBAD00DEC3BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B562E8C1D73FBAD00DEC3BA /* LaFengDemo.app */,
+				8B562EA81D73FBAD00DEC3BA /* LaFengDemoTests.xctest */,
+				8B562EB31D73FBAD00DEC3BA /* LaFengDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B562E8E1D73FBAD00DEC3BA /* LaFengDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8B9AF5EF1D742A7500BF3C99 /* category */,
+				8B562E921D73FBAD00DEC3BA /* AppDelegate.h */,
+				8B562E931D73FBAD00DEC3BA /* AppDelegate.m */,
+				8B562E951D73FBAD00DEC3BA /* ViewController.h */,
+				8B562E961D73FBAD00DEC3BA /* ViewController.m */,
+				8B562E981D73FBAD00DEC3BA /* Main.storyboard */,
+				8B562E9E1D73FBAD00DEC3BA /* Assets.xcassets */,
+				8B562EA01D73FBAD00DEC3BA /* LaunchScreen.storyboard */,
+				8B562EA31D73FBAD00DEC3BA /* Info.plist */,
+				8B562E9B1D73FBAD00DEC3BA /* LaFengDemo.xcdatamodeld */,
+				8B562E8F1D73FBAD00DEC3BA /* Supporting Files */,
+			);
+			path = LaFengDemo;
+			sourceTree = "<group>";
+		};
+		8B562E8F1D73FBAD00DEC3BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B9AF5F91D742C4100BF3C99 /* images */,
+				8B562E901D73FBAD00DEC3BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B562EAB1D73FBAD00DEC3BA /* LaFengDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B562EAC1D73FBAD00DEC3BA /* LaFengDemoTests.m */,
+				8B562EAE1D73FBAD00DEC3BA /* Info.plist */,
+			);
+			path = LaFengDemoTests;
+			sourceTree = "<group>";
+		};
+		8B562EB61D73FBAD00DEC3BA /* LaFengDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B562EB71D73FBAD00DEC3BA /* LaFengDemoUITests.m */,
+				8B562EB91D73FBAD00DEC3BA /* Info.plist */,
+			);
+			path = LaFengDemoUITests;
+			sourceTree = "<group>";
+		};
+		8B9AF5EF1D742A7500BF3C99 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				8B9AF5F61D742A8000BF3C99 /* LFLivePreview.h */,
+				8B9AF5F71D742A8000BF3C99 /* LFLivePreview.m */,
+				8B9AF5F01D742A7500BF3C99 /* UIControl+YYAdd.h */,
+				8B9AF5F11D742A7500BF3C99 /* UIControl+YYAdd.m */,
+				8B9AF5F21D742A7500BF3C99 /* UIView+YYAdd.h */,
+				8B9AF5F31D742A7500BF3C99 /* UIView+YYAdd.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		8B9AF5F91D742C4100BF3C99 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8B9AF5FA1D742C4100BF3C99 /* camra_beauty@2x.png */,
+				8B9AF5FB1D742C4100BF3C99 /* camra_beauty@3x.png */,
+				8B9AF5FC1D742C4100BF3C99 /* camra_beauty_close@2x.png */,
+				8B9AF5FD1D742C4100BF3C99 /* camra_beauty_close@3x.png */,
+				8B9AF5FE1D742C4100BF3C99 /* camra_preview@2x.png */,
+				8B9AF5FF1D742C4100BF3C99 /* camra_preview@3x.png */,
+				8B9AF6001D742C4100BF3C99 /* close_preview@2x.png */,
+				8B9AF6011D742C4100BF3C99 /* close_preview@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D005356EAB8ED07B912E96BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E71463F6DD386DFCB57590 /* libPods-LaFengDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B562E8B1D73FBAD00DEC3BA /* LaFengDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B562EBC1D73FBAD00DEC3BA /* Build configuration list for PBXNativeTarget "LaFengDemo" */;
+			buildPhases = (
+				B23E18A34D452E976B2A01D6 /* [CP] Check Pods Manifest.lock */,
+				8B562E881D73FBAD00DEC3BA /* Sources */,
+				8B562E891D73FBAD00DEC3BA /* Frameworks */,
+				8B562E8A1D73FBAD00DEC3BA /* Resources */,
+				1E405CBC61CF4830FBC1DEA8 /* [CP] Embed Pods Frameworks */,
+				A3E7483B8F95B734915ADFE3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaFengDemo;
+			productName = LaFengDemo;
+			productReference = 8B562E8C1D73FBAD00DEC3BA /* LaFengDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B562EA71D73FBAD00DEC3BA /* LaFengDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B562EBF1D73FBAD00DEC3BA /* Build configuration list for PBXNativeTarget "LaFengDemoTests" */;
+			buildPhases = (
+				8B562EA41D73FBAD00DEC3BA /* Sources */,
+				8B562EA51D73FBAD00DEC3BA /* Frameworks */,
+				8B562EA61D73FBAD00DEC3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B562EAA1D73FBAD00DEC3BA /* PBXTargetDependency */,
+			);
+			name = LaFengDemoTests;
+			productName = LaFengDemoTests;
+			productReference = 8B562EA81D73FBAD00DEC3BA /* LaFengDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B562EB21D73FBAD00DEC3BA /* LaFengDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B562EC21D73FBAD00DEC3BA /* Build configuration list for PBXNativeTarget "LaFengDemoUITests" */;
+			buildPhases = (
+				8B562EAF1D73FBAD00DEC3BA /* Sources */,
+				8B562EB01D73FBAD00DEC3BA /* Frameworks */,
+				8B562EB11D73FBAD00DEC3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B562EB51D73FBAD00DEC3BA /* PBXTargetDependency */,
+			);
+			name = LaFengDemoUITests;
+			productName = LaFengDemoUITests;
+			productReference = 8B562EB31D73FBAD00DEC3BA /* LaFengDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B562E841D73FBAD00DEC3BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Juny_song;
+				TargetAttributes = {
+					8B562E8B1D73FBAD00DEC3BA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PA2V7TLZSR;
+					};
+					8B562EA71D73FBAD00DEC3BA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8B562E8B1D73FBAD00DEC3BA;
+					};
+					8B562EB21D73FBAD00DEC3BA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8B562E8B1D73FBAD00DEC3BA;
+					};
+				};
+			};
+			buildConfigurationList = 8B562E871D73FBAD00DEC3BA /* Build configuration list for PBXProject "LaFengDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B562E831D73FBAD00DEC3BA;
+			productRefGroup = 8B562E8D1D73FBAD00DEC3BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B562E8B1D73FBAD00DEC3BA /* LaFengDemo */,
+				8B562EA71D73FBAD00DEC3BA /* LaFengDemoTests */,
+				8B562EB21D73FBAD00DEC3BA /* LaFengDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B562E8A1D73FBAD00DEC3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9AF6041D742C4100BF3C99 /* camra_beauty_close@2x.png in Resources */,
+				8B562EA21D73FBAD00DEC3BA /* LaunchScreen.storyboard in Resources */,
+				8B9AF6021D742C4100BF3C99 /* camra_beauty@2x.png in Resources */,
+				8B562E9F1D73FBAD00DEC3BA /* Assets.xcassets in Resources */,
+				8B9AF6071D742C4100BF3C99 /* camra_preview@3x.png in Resources */,
+				8B9AF6051D742C4100BF3C99 /* camra_beauty_close@3x.png in Resources */,
+				8B9AF6091D742C4100BF3C99 /* close_preview@3x.png in Resources */,
+				8B9AF6081D742C4100BF3C99 /* close_preview@2x.png in Resources */,
+				8B562E9A1D73FBAD00DEC3BA /* Main.storyboard in Resources */,
+				8B9AF6061D742C4100BF3C99 /* camra_preview@2x.png in Resources */,
+				8B9AF6031D742C4100BF3C99 /* camra_beauty@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B562EA61D73FBAD00DEC3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B562EB11D73FBAD00DEC3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E405CBC61CF4830FBC1DEA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaFengDemo/Pods-LaFengDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E7483B8F95B734915ADFE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaFengDemo/Pods-LaFengDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B23E18A34D452E976B2A01D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B562E881D73FBAD00DEC3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9AF5F41D742A7500BF3C99 /* UIControl+YYAdd.m in Sources */,
+				8B562E971D73FBAD00DEC3BA /* ViewController.m in Sources */,
+				8B9AF5F51D742A7500BF3C99 /* UIView+YYAdd.m in Sources */,
+				8B562E9D1D73FBAD00DEC3BA /* LaFengDemo.xcdatamodeld in Sources */,
+				8B9AF5F81D742A8000BF3C99 /* LFLivePreview.m in Sources */,
+				8B562E941D73FBAD00DEC3BA /* AppDelegate.m in Sources */,
+				8B562E911D73FBAD00DEC3BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B562EA41D73FBAD00DEC3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B562EAD1D73FBAD00DEC3BA /* LaFengDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B562EAF1D73FBAD00DEC3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B562EB81D73FBAD00DEC3BA /* LaFengDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B562EAA1D73FBAD00DEC3BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B562E8B1D73FBAD00DEC3BA /* LaFengDemo */;
+			targetProxy = 8B562EA91D73FBAD00DEC3BA /* PBXContainerItemProxy */;
+		};
+		8B562EB51D73FBAD00DEC3BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B562E8B1D73FBAD00DEC3BA /* LaFengDemo */;
+			targetProxy = 8B562EB41D73FBAD00DEC3BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B562E981D73FBAD00DEC3BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B562E991D73FBAD00DEC3BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B562EA01D73FBAD00DEC3BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B562EA11D73FBAD00DEC3BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B562EBA1D73FBAD00DEC3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B562EBB1D73FBAD00DEC3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B562EBD1D73FBAD00DEC3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8642C5CCD36D71EADFF74D83 /* Pods-LaFengDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LaFengDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Juny.LaFengDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B562EBE1D73FBAD00DEC3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D54A551A9CF12BE78FDB4E /* Pods-LaFengDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LaFengDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Juny.LaFengDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B562EC01D73FBAD00DEC3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaFengDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Juny.LaFengDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaFengDemo.app/LaFengDemo";
+			};
+			name = Debug;
+		};
+		8B562EC11D73FBAD00DEC3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaFengDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Juny.LaFengDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaFengDemo.app/LaFengDemo";
+			};
+			name = Release;
+		};
+		8B562EC31D73FBAD00DEC3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LaFengDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Juny.LaFengDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LaFengDemo;
+			};
+			name = Debug;
+		};
+		8B562EC41D73FBAD00DEC3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LaFengDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Juny.LaFengDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LaFengDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B562E871D73FBAD00DEC3BA /* Build configuration list for PBXProject "LaFengDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B562EBA1D73FBAD00DEC3BA /* Debug */,
+				8B562EBB1D73FBAD00DEC3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B562EBC1D73FBAD00DEC3BA /* Build configuration list for PBXNativeTarget "LaFengDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B562EBD1D73FBAD00DEC3BA /* Debug */,
+				8B562EBE1D73FBAD00DEC3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B562EBF1D73FBAD00DEC3BA /* Build configuration list for PBXNativeTarget "LaFengDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B562EC01D73FBAD00DEC3BA /* Debug */,
+				8B562EC11D73FBAD00DEC3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B562EC21D73FBAD00DEC3BA /* Build configuration list for PBXNativeTarget "LaFengDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B562EC31D73FBAD00DEC3BA /* Debug */,
+				8B562EC41D73FBAD00DEC3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B562E9B1D73FBAD00DEC3BA /* LaFengDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B562E9C1D73FBAD00DEC3BA /* LaFengDemo.xcdatamodel */,
+			);
+			currentVersion = 8B562E9C1D73FBAD00DEC3BA /* LaFengDemo.xcdatamodel */;
+			path = LaFengDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B562E841D73FBAD00DEC3BA /* Project object */;
+}
